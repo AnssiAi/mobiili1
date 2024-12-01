@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:harjoitusi.ViewModels"
+             x:Class="harjoitusi.Views.ExerciseDetailPage"
+             x:DataType="vm:ExerciseViewModel"
+             Title="ExerciseDetailPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="{Binding Id}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="{Binding Name}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="{Binding Type}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Tagit"/>
+        <ListView x:Name="tagsList" HorizontalOptions="Center" ItemsSource="{Binding Tags}"/>
+        <Label 
+            Text="Harjoittaa"/>
+        <ListView x:Name="targetsList" HorizontalOptions="Center" ItemsSource="{Binding Targets}"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

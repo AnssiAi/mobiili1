@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="harjoitusi.Views.AddExercisePage"
+             Title="AddExercisePage">
+    <VerticalStackLayout>
+        <Entry x:Name="nameEntry"
+               Placeholder="Exercise name"
+               TextChanged="Name_Entry_TextChanged"
+               Completed="Name_Entry_Completed"
+               Margin="2"/>
+        <Entry x:Name="typeEntry"
+               Placeholder="Exercise type"
+               TextChanged="Type_Entry_TextChanged"
+               Completed="Type_Entry_Completed"
+               Margin="2"/>
+        
+        <Entry x:Name="tagEntry"
+               Placeholder="Exercise tag"
+               TextChanged="Tag_Entry_TextChanged"
+               Completed="Tag_Entry_Completed"
+               Margin="2"/>
+        <Button 
+            Text="Add Tag"
+            Clicked="Add_Tag_Button_Clicked"
+            Margin="5"/>
+        <ListView x:Name="tagsList"
+                  Margin="2"/>
+
+        <Entry x:Name="targetEntry"
+               Placeholder="Exercise targets"
+               TextChanged="Target_Entry_TextChanged"
+               Completed="Target_Entry_Completed"
+               Margin="2"/>
+        <Button 
+            Text="Add Target"
+            Clicked="Add_Target_Button_Clicked"
+            Margin="5"/>
+        <ListView x:Name="targetsList"
+                  Margin="2"/>
+        
+        <Button 
+            Text="Add Item"
+            Clicked="Add_Button_Clicked"
+            Margin="5"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,44 @@
+﻿[
+  {
+    "Id":  1,
+    "Name": "Penkkipunnerrus",
+    "Type": "repetition",
+    "Tags": [ "strength", "classic" ],
+    "Targets": [ "chest", "arms" ]
+  },
+  {
+    "Id": 2,
+    "Name": "Takakyykky",
+    "Type": "repetition",
+    "Tags": [ "strength", "classic" ],
+    "Targets": [ "legs" ]
+  },
+  {
+    "Id": 3,
+    "Name": "Maastaveto",
+    "Type": "repetition",
+    "Tags": [ "strength", "classic" ],
+    "Targets": [ "legs" ]
+  },
+  {
+    "Id": 4,
+    "Name": "Leuanveto",
+    "Type": "repetition",
+    "Tags": [ "strength", "classic" ],
+    "Targets": [ "back" ]
+  },
+  {
+    "Id": 5,
+    "Name": "Laitesoutu",
+    "Type": "time",
+    "Tags": [ "endurance", "classic", "cardio" ],
+    "Targets": [ "legs", "back", "cardio" ]
+  },
+  {
+    "Id": 6,
+    "Name": "Juoksu",
+    "Type": "distance",
+    "Tags": [ "endurance", "classic", "cardio" ],
+    "Targets": [ "legs", "cardio" ]
+  }
+]
